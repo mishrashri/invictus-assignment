@@ -45,3 +45,10 @@ handleChange(event) {
         this.setState({number: event.target.value})
     }
 Handling every time there is a change in the input box
+
+
+#Output ScreenShots:-
+![Screenshot (5)](https://user-images.githubusercontent.com/56464610/118358289-c3889a80-b59b-11eb-8f51-69c722a25d2d.png)
+![Screenshot (6)](https://user-images.githubusercontent.com/56464610/118358296-c84d4e80-b59b-11eb-8427-b7300f094767.png)
+![Screenshot (7)](https://user-images.githubusercontent.com/56464610/118358301-cbe0d580-b59b-11eb-8946-c6a90d80ee47.png)
+
