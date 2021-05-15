@@ -1,7 +1,7 @@
 #Invictus Assignment of Narayan Mishra
 
 #Installation:
-$ git clone https://github.com/mishrashri/invictus-assignmnet.git/
+$ git clone https://github.com/mishrashri/invictus-assignment.git/
 
 $ npm install
 
