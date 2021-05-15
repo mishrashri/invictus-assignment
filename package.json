@@ -1,0 +1,25 @@
+{
+  "homepage": "https://mishrashri.github.io/invictus-assignment",
+  "name": "narayan-invictus",
+  "version": "0.1.0",
+  "description": "Invictus Assignment of Narayan Mishra",
+  "main": "server.js",
+  "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "invictus",
+    "assignment"
+  ],
+  "author": "narayanmishra",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "request": "^2.85.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}

@@ -1,0 +1,79 @@
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+  
+  h1, p, h4 {
+    text-align: center;
+    font-family: inherit;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  input {
+    border-radius: 200px;
+    display: block;
+    margin : 0 auto;
+    width: 10%;
+    text-align: center;
+    padding: 2%;
+    font-family: inherit;
+    color:#ee7752;
+    background-color: transparent;
+    border:cornflowerblue solid 0.5px;
+    outline: none;
+    font-size: 12px;
+  }
+  
+  input:focus{
+    outline: none;
+  }
+  
+  table {
+    text-align: center;
+    width: 45%;
+    border: none;
+    font-family: inherit;
+    background-color: transparent;
+  }
+  
+  th, td {
+    
+    text-align: center;
+    color: #ee7752;
+  }
+  
+  .container {
+    margin: auto;
+    width: 45vw;
+    height: 65vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: transparent;
+    font-size: 24px;
+    border: 3px burlywood solid
+}
+  
+  .words, .count {
+    width: 20%;
+    padding: 2%;
+    text-align: center;
+    vertical-align: top;
+    background-color: transparent;
+  }
+  
